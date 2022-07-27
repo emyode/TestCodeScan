@@ -1,7 +1,8 @@
 using System;
 using System.Data;
-using MySql.Data.MySqlClient;
 using log4net;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 using System.Reflection;
 using System.Diagnostics;
 using System.IO;
