@@ -25,3 +25,5 @@ fileList.bin
 **/[Pp]ackages/**
 **/obj/**
 **/bin/**
+**/*.user
+**/old/**
