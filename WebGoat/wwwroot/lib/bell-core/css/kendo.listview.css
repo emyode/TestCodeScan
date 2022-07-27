@@ -1,0 +1,42 @@
+﻿.list-group .editor {
+    background-color: rgba(230,230,230, 0.5);
+}
+
+.k-toolbar {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.k-listview {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-width: 0;
+}
+
+
+.list-group .list-group-item {
+    padding: .6em 1em;
+    line-height: 1.6em;
+}
+
+    .list-group .list-group-item > * {
+        align-self: center;
+    }
+
+ul > li.k-edit-item .k-form-error {
+    margin-left: 1em;
+}
+.list-group .list-group-item  .edit-buttons .k-button .k-icon {
+    opacity: 1;
+    text-shadow: none;
+    margin: 0;
+    height: 1.6em;
+    align-items: center;
+}
+    .list-group .list-group-item .edit-buttons .k-button .k-icon:before {
+        line-height: 1.6em;
+        height: 1.6em;
+    }
+
+ul li.odd{
+    background-color:#eee;
+}

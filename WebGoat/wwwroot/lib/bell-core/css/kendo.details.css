@@ -1,0 +1,87 @@
+﻿#detail-page {
+    box-shadow: 0 0 4px 1px rgba(0,0,0,.1);
+}
+
+.mandatory {
+    overflow: visible;
+    white-space: nowrap;
+}
+
+.k-form-field-wrap {
+    position: relative;
+}
+
+    .k-form-field-wrap .k-form-error {
+        position: absolute;
+        font-size: .8em;
+        bottom: -1.25rem;
+    }
+
+    .k-form-field-wrap input[type='checkbox'] {
+        margin-top: 8px;
+    }
+
+.k-form-label {
+    font-weight: bold;
+}
+
+.k-form .k-form-buttons .k-button .k-icon {
+    margin-right: .5em;
+}
+
+.k-form .k-radio:checked {
+    color: #3f51b5;
+}
+
+.k-display-text {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding-left: 12px;
+}
+
+.back-to-list {
+    align-items: center;
+    background-color: #ededed;
+    border: 2px solid #059;
+    border-radius: 20px;
+    color: #059;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: auto;
+    padding: .5rem 2.5rem;
+    display: inline-block;
+}
+
+a.back-to-list:hover {
+    background-color: #f3f3f3;
+    text-decoration: none;
+}
+
+.k-radio-list.k-list-horizontal{
+    display:inline-flex;
+    height:100%;
+    align-items:center;
+}
+
+.k-form-horizontal .k-form-field > .k-label, .k-form-horizontal .k-form-field > .k-form-label {
+    text-align: right;
+}
+
+.k-form-horizontal .k-form-field {
+    align-items: center;
+}
+
+
+.k-form-buttons {
+    justify-content: flex-end;
+}
+
+#detail-page .k-form > fieldset:first-child{
+    margin-top:0;
+}
+#detail-page .k-form > fieldset:first-child > legend:empty{
+    border-bottom-width:0;
+}

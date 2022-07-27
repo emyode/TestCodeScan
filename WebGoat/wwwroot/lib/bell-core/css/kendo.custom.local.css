@@ -1,0 +1,270 @@
+﻿.k-grid td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+    .k-grid tr.k-state-selected,
+    .k-grid td.k-state-selected,
+    .k-grid td.k-state-selected.k-state-focused,
+    .k-grid td.k-state-selected:hover,
+    .k-grid tr.k-state-selected:hover td {
+        background-color: #0066a4 !important;
+        color: whitesmoke !important;
+    }
+
+.k-item [type="checkbox"] {
+    margin: 3px 3px 3px 4px;
+}
+
+.k-header.k-grid-toolbar {
+    background-color: rgb(0,84,154);
+}
+
+.k-grid-header,
+.k-grouping-header {
+    background-color: rgb(0,84,154);
+}
+
+.js-search-form .k-auto-scrollable .k-grid-content-expander {
+    display: none;
+}
+
+.k-confirm .k-dialog-buttongroup.k-dialog-button-layout-stretched .k-button,
+.k-dialog .k-dialog-button-layout-normal .k-button {
+    position: relative !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    line-height: normal !important;
+    font-size: .8571em !important;
+    min-height: 16px !important;
+    min-width: 50px !important;
+    padding: 9px 12px 6px !important;
+    color: #fff !important;
+    border: 1px solid #01101f !important;
+    background-color: #1477bb !important;
+    background-image: -webkit-linear-gradient(top,rgba(20,119,187,1) 0,rgba(17,78,146,1) 100%) !important;
+    background-image: linear-gradient(to bottom,rgba(20,119,187,1) 0,rgba(17,78,146,1) 100%) !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.75) !important;
+    border-radius: 4px !important;
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,.34) !important;
+}
+
+.k-grid .k-header .k-button {
+    background-color: #059 !important;
+    border-color: #059 !important;
+}
+
+.k-grid-header .k-header .k-link {
+    color: #212121 !important;
+}
+
+
+/*
+    Wraps the title headers on two lines https://www.telerik.com/forums/header-wrapping-height
+    Add class "k-grid-with-multiline-header" on a "k-grid" make the header multiline
+*/
+.k-grid.k-grid-with-multiline-header .k-grid-header,
+.k-grid.k-grid-with-multiline-header .k-grid-header .k-header .k-link {
+    height: auto;
+}
+
+    .k-grid.k-grid-with-multiline-header .k-grid-header .k-header {
+        white-space: normal;
+        word-break: break-word;
+    }
+
+/* 
+    Fix Kendo Grid Locked Column Height Bug
+*/
+.k-grid.k-grid-with-multiline-header > div.k-grid-content-locked {
+    height: auto !important;
+}
+
+/*
+    Add class "k-grid-no-vertical-scrollbar" on a "k-grid" to disable its vertical scrollbar
+*/
+.k-grid.k-grid-no-vertical-scrollbar .k-grid-header {
+    padding: 0 !important;
+}
+
+.k-grid.k-grid-no-vertical-scrollbar .k-grid-content {
+    overflow-y: visible;
+}
+
+.k-dropzone em {
+    display: inline !important;
+}
+
+.k-grid tbody .k-button, .k-ie8 .k-grid tbody button.k-button {
+    min-width: 58px !important;
+}
+
+
+.k-grid .k-grid-content-locked {
+    height: auto !important;
+}
+
+    .k-grid .k-grid-content td, .k-grid .k-grid-content-locked td {
+        vertical-align: top;
+    }
+
+
+.k-animation-container .k-multicheck-wrap .k-item .k-label span {
+    padding-right: .75em;
+    padding-left: .5em;
+}
+
+
+.k-pager-numbers .k-link {
+    border-radius: 0 !important;
+}
+
+.k-pager-wrap .k-pager-numbers .k-state-selected,
+.k-pager-wrap .k-pager-numbers .k-state-selected:hover {
+    border-top-color: rgb(0,84,154);
+    color: rgb(0,84,154);
+}
+
+.k-grid-header .k-i-sort-asc-sm,
+.k-grid-header .k-i-sort-desc-sm,
+.k-grid-header .k-sort-order {
+    color: rgb(255,255,255);
+}
+
+.k-filter-menu-container .k-textbox input {
+    max-width: none;
+}
+
+.k-window-titlebar {
+    background-color: rgb(0,84,154);
+}
+
+.k-grid table {
+    border-collapse: collapse;
+}
+
+    .k-grid table tbody tr.k-master-row,
+    .k-grid table tbody tr.k-detail-row {
+        border-bottom: 1px solid rgb(230,230,230);
+    }
+
+        .k-grid table tbody tr.k-grouping-row td,
+        .k-grid table tbody tr.k-master-row td {
+            border-left: 0;
+            border-right: 0;
+        }
+
+
+.k-popup-edit-form .k-numerictextbox {
+    width: 12.4em !important;
+}
+
+.k-popup-edit-form .k-edit-buttons .k-button {
+    color: #fff;
+    border: 1px solid #01101f;
+    background-color: #1477bb;
+    background-image: -webkit-linear-gradient(top, rgba(20, 119, 187, 1) 0, rgba(17, 78, 146, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(20, 119, 187, 1) 0, rgba(17, 78, 146, 1) 100%);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .75);
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, .34);
+    font-size: 12px;
+}
+
+    .k-popup-edit-form .k-edit-buttons .k-button:hover {
+        box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, .34), 0 2px 3px 0 rgba(0, 0, 0, .25);
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .k-popup-edit-form .k-edit-buttons .k-button:focus {
+        outline: #000 dotted 1px;
+    }
+
+span.k-textarea,
+span.k-numerictextbox,
+span.k-numerictextbox span.k-numeric-wrap:not(.k-state-focus):not(.k-state-hover):not(.k-state-active),
+span.k-numerictextbox span.k-numeric-wrap:not(.k-state-focus):not(.k-state-hover):not(.k-state-active) input,
+span.k-numerictextbox span.k-numeric-wrap:not(.k-state-focus):not(.k-state-hover):not(.k-state-active) .k-select,
+div.k-multiselect,
+div.k-multiselect:not(.k-state-focused):not(.k-state-hover):not(.k-state-active) .k-multiselect-wrap,
+div.k-multiselect:not(.k-state-focused):not(.k-state-hover):not(.k-state-active) .k-multiselect-wrap input {
+    background-color: #fafafa;
+}
+
+    span.k-numerictextbox span.k-numeric-wrap:not(.k-state-focus):not(.k-state-hover):not(.k-state-active) .k-select {
+        border-left-color: #fafafa;
+    }
+
+button.k-button:not(.k-link):not(.k-title),
+.k-grid-toolbar a.k-button:not(.k-link):not(.k-title),
+.k-grid-toolbar {
+    border: 1px solid #01101f;
+    background-color: #1477bb;
+    background-image: -webkit-linear-gradient(top,rgba(20,119,187,1) 0,rgba(17,78,146,1) 100%);
+    background-image: linear-gradient(to bottom,rgba(20,119,187,1) 0,rgba(17,78,146,1) 100%);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+    color: white;
+}
+
+.k-grid .k-grouping-header {
+    border: 1px solid #01101f;
+    border-top: 0;
+    background-color: rgb(0,84,154);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+    color: #ededed;
+}
+
+.k-grid-toolbar a.k-button:not(.k-link):not(.k-title),
+button.k-button:not(.k-link):not(.k-title) {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: .8571em;
+    min-height: 16px;
+    min-width: 50px;
+    padding: 9px 12px 6px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,.34);
+}
+
+.k-window-actions a.k-button:not(.k-link):not(.k-title) {
+    min-width: unset;
+}
+
+.k-multiselect-wrap ul li.k-button {
+    display: flex;
+    line-height: 1.85742857em;
+    font-size: inherit;
+    min-height: calc(2.42842857em - 6px);
+    min-width: 0;
+    padding-bottom: 0;
+    padding-left: 0.857em;
+    padding-right: 1.6em;
+    padding-top: 0;
+    border-radius: 1.071em;
+    box-shadow: none;
+    border: 0;
+    background-color: #f5f5f5;
+    background-image: none;
+    text-shadow: none;
+    color: #444444;
+}
+
+div:not(.k-multiselect-wrap) ul li.k-button:hover,
+div:not(.k-multiselect-wrap) ul li.k-button:focus,
+div:not(.k-multiselect-wrap) ul li.k-button:active {
+    background-color: #023667;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#023667),color-stop(100%,#0e4e89));
+    background-image: -webkit-linear-gradient(top,#023667 0,#0e4e89 100%);
+    background-image: linear-gradient(to bottom,#023667 0,#0e4e89 100%);
+    color: white;
+}
+
+.k-grid .k-grid-toolbar .k-icon {
+    opacity: 1;
+}
+

@@ -1,0 +1,148 @@
+﻿/*Kendo grid*/
+#grid-page .k-grid {
+    box-shadow: 0 0 4px 1px rgba(0,0,0,.1);
+}
+ .k-grid-header .k-header {
+    background-color: rgb(0, 84, 154);
+    color: #FFFFFF !important;
+}
+.k-grid-header {
+    background-color: rgb(0, 84, 154);
+    color: #FFFFFF !important;
+}
+
+    .k-grid-header .k-header .k-link, .db-grid .k-grid-header .k-header .k-grid-filter {
+        color: #FFFFFF !important;
+    }
+
+        .k-grid-header .k-header .k-link.k-state-active {
+            background-color: rgb(0, 84, 154);
+        }
+
+.k-grid-filter.k-state-active {
+    background-color: #333333 !important;
+}
+
+.gridcell {
+    -ms-word-break: break-all !important;
+}
+
+ 
+.js-no-record {
+    font-size: initial;
+    margin: 2em auto;
+    color: rgb(85,85,85);
+}
+
+.js-grid-command {
+    margin-left: .75em !important;
+    display: inline-block;
+}
+
+.k-command-cell {
+    text-align:right;
+}
+
+    .k-command-cell .k-button:not(.k-grid-select) {
+        background: none;
+        background-image: none;
+        border: none;
+        color: rgb(0, 84, 154);
+        min-width: 0 !important;
+        padding: 6px 9px;
+        box-shadow: none;
+    }
+
+        .k-command-cell .k-button:not(.k-grid-select):hover,
+        .k-command-cell .k-button:not(.k-grid-select):focus,
+        .k-command-cell .k-button:not(.k-grid-select):active {
+            background-color: rgb(0, 84, 154) !important;
+            color: white !important;
+            background-image: none !important;
+        }
+        .k-command-cell .k-button:not(.k-grid-select).k-disabled:hover,
+        .k-command-cell .k-button:not(.k-grid-select).k-disabled:focus,
+        .k-command-cell .k-button:not(.k-grid-select).k-disabled:active {
+            background-color: white !important;
+            color: #555 !important;
+            cursor: not-allowed;
+        }
+
+        .k-command-cell .k-button:not(.k-grid-select).k-disabled {
+            color: #555;
+            cursor: not-allowed;
+        }
+
+        .k-command-cell .k-button:not(.k-grid-select) .k-icon {
+            opacity: 1;
+            text-shadow: none;
+            margin: 0;
+        }
+
+    .k-grid .k-grid-content td, .k-grid .k-grid-content-locked td {
+        vertical-align: middle;
+    }
+
+.k-grid .k-grouping-header .k-link,
+.k-grid .k-grouping-header .k-link:link,
+.k-grid .k-grouping-header .k-group-indicator {
+    background: rgb(0, 84, 154);
+    color: white;
+}
+
+.k-grid .k-grouping-header .k-group-indicator .k-button{
+    padding:0;
+    min-width:unset;
+}
+
+.k-filter-menu-container > label{
+    display:block;
+    padding: 6px 0;
+}
+.k-filter-menu-container > label:first-of-type{
+    margin-top: 6px;
+}
+.k-filter-menu-container > label:last-of-type{
+    margin-bottom: 6px;
+}
+
+
+.k-filter-menu-container > label > input{
+    margin-left: .5em;
+    margin-right: .5em;
+}
+.k-filter-menu.k-popup .k-filter-menu-container,
+.k-grid-filter-popup.k-popup .k-filter-menu-container{
+    width : auto;
+    min-width: 230px;
+}
+
+.k-filter-help-text{
+    margin-bottom:.75em;
+}
+
+.db-toolbar-checkbox {
+    margin-left: auto;
+}
+.db-toolbar-checkbox input {
+    vertical-align:middle;
+}
+
+.k-pager-sizes .k-dropdown, .k-pager-sizes > select{
+    width: 6em;
+}
+
+.k-grid-toolbar .k-grid-search {
+    margin-left:auto;
+}
+
+.k-grid-active{
+    padding:0!important;
+}
+
+.k-grid-active label{
+    padding: 6px 12px;
+}
+.k-tabstrip .k-grid .k-button.k-disabled{
+    opacity:1!important;
+}

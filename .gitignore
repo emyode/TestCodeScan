@@ -22,5 +22,6 @@ fileList.bin
 **/.suo
 **/.vs/**
 **/Documentation/**
-**/Packages/**
-**/lib/**
+**/[Pp]ackages/**
+**/obj/**
+**/bin/**
