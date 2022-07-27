@@ -12,6 +12,17 @@
 name: "CodeQL"
 
 on:
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning' 
+        type: choice
+        options:
+        - info
+        - warning
+        - debug 
   push:
     branches: [ "main" ]
   pull_request:
@@ -19,6 +30,8 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '28 13 * * 5'
+
+   
 
 jobs:
   analyze:
