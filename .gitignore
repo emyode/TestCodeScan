@@ -27,3 +27,4 @@ fileList.bin
 **/bin/**
 **/*.user
 **/old/**
+**/codeql.sarif
